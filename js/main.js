@@ -15,7 +15,6 @@ searchForm.addEventListener('submit', (event) => {
         search(query)
         .then(data => meals = data.results)
         .then(meals => createMealCard(meals))
-        .then(meals => console.log(meals));
     } catch(e){
         let error = document.createElement('h2');
         error.textContent = `Oops, there was an error: ${e}`;
