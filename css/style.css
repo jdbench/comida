@@ -152,11 +152,11 @@ form input:focus, form button:focus{
         height: 20rem;
     }
     #recipes-div{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
     }
     .card{
-        max-width: 400px;
+        max-width: 550px;
         font-size: 20px;
     }
 }
